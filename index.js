@@ -11,7 +11,7 @@ const server = express();
 
 server.use(
   cors({
-    origin: "*",
+origin: "https://hiber-front.vercel.app",
     credentials: true,
   })
 );
